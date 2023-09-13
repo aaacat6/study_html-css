@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <!--以下表单使用 GET 请求发送数据到当前的 URL，method 默认位 GET。-->
+   <!-- <form>
+    <label>Name:
+    <input name="submitted-name" autocomplete="name">
+    </label>
+    <button>Save</button>
+    </form>-->
+    
+    <!-- 以下表单使用 POST 请求发送数据到当前的 URL。 -->
+  <!--  <form method="post">
+    <label>Name:
+    <input name="submitted-name" autocomplete="name">
+    </label>
+    <button>Save</button>
+    </form>-->
+    
+    <!-- 表单使用 fieldset, legend, 和 label 标签 -->
+  <!--  <form method="post">
+    <fieldset>
+    <legend>Title</legend>
+    <label><input type="radio" name="radio"> Select me</label>
+    </fieldset>
+    </form> -->
+
+    <form name="input" action="./test.json" method="post">
+        Username: <input type="text" name="user">
+        <input type="password" name="pwd">
+        <input type="submit" value="Submit">
+        <input type="hidden" value="aaa">
+        </form>
+    <p><del>test</del></p>
+
+</body>
+</html>
