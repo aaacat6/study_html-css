@@ -1,18 +1,30 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
 }
 
-body{
+body {
     background-color: rgb(80, 80, 80);
 }
 
-img{
-    width: 100%;
+.img1 {
+    float: left;
+    height: 500px;
+    width: 500px;
+    background-image: url(aaacat1.png);
+    background-repeat: no-repeat;
+    background-size: 500px 500px;
+    border: 2px solid red;
 }
 
-.img{
-    width: 750px;
-    height:750px;
-    margin: 10px auto;
+.img2 {
+    float: left;
+    height: 510px;
+    width: 510px;
+    background-color: rgb(146, 189, 91);
+    background-image: url(aaacat1.png);
+    background-repeat: no-repeat;
+    background-size: 500px 500px;
+    background-position: center;
+    border: 2px solid rgb(17, 0, 255);
 }
