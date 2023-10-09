@@ -3,99 +3,73 @@
     padding: 0px;
 }
 
-body{
-    background-color: white;
-}
-
-.w{
+.header{
+    height: 42px;
+    margin: 30px auto;
     width: 1200px;
-    margin: 0 auto;
 }
 
-li{
+.logo{
+    float: left;
+}
+
+.nav{
+    float: left;
+    margin-left: 71px;
+}
+
+.nav ul li{
+    float: left;
+    padding: 0px 15px;
     list-style: none;
 }
 
-a{
-    text-decoration: none;
-}
-
-.header{
-    height: 42px;
-    /* background-color: rgb(231, 255, 192); */
-    margin: 30px auto;
-}
-
- .logo
-{
-    float: left;
-    /* width: 195px; */
-    /* height: 41px; */
-    /* background-color: pink; */
-}
-
- .nav{
-    float: left;
-    margin-left: 71px;
-    /* width: 282px;
-    height: 41px; */
-    /* background-color: aqua; */
-}
-
- .nav li{
-    float: left;
-    padding: 0px 15px;
-}
-
- .nav ul li a{
-    display: block;
+.nav ul li a{
     padding: 0px 8px;
-    height: 41px;
     line-height: 41px;
     font-size: 18px;
     color: black;
+    text-decoration: none;
 }
 
- .nav ul li a:hover{
+.nav ul li a:hover{
     border-bottom: 2px solid #00a4ff;
     color: #00a4ff;
 }
 
- .search{
+.search{
     float: left;
     margin-left:70px;
-    background-color: #00a4ff;
+    /* background-color: #00a4ff; */
 }
 
 .search input{
-    float: left;
     width: 345px;
-    height: 39px;
-    border-right: 0px;
+    height: 40px;
     padding-left: 10px;
-    line-height: 41px;
     border:1px solid #00a4ff;
     color: #c6c7c7;
+    float: left;
 }
 
 .search button{
-    float: left;
     background-image: url(images/btn.png);
-    height: 41px;
+    height: 42px;
     width: 50px;
     border: 0;
+    float: left;
 }
 
 .user{
     float: right;
-    /* width: 117px;
-    height: 32px; */
-    /* background-color: green; */
     margin-right: 36px;
+}
+
+img{
+    vertical-align: middle;
 }
 
 .user span{
     height: 42px;
     line-height: 42px;
 }
-

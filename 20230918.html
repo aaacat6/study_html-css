@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- 创建一个输入框,有两个radio选项 -->
+    <form method="post">
+        <fieldset>
+            <legend>Title</legend>
+            <label><input type="radio" name="radio" checked=checked> Select me</label><br>
+            <label><input type="radio" name="radio"> Select me</label><br>
+            <input type="text" name="text2" maxlength="3" value="最多输入3个字符">aaaa</label><br>
+            <input type="text" name="text3">aaaa<br>
+            <input type="reset">
+        </fieldset>
+    </form>
+    <form method="post">
+        <fieldset>
+            <legend>Title</legend>
+            <input type="text" name="text3"><br>
+            <input type="reset">
+        </fieldset>
+    </form>
+    <!-- 创建一个下拉菜单,有5个选项 -->
+    <form method="post">
+        <fieldset>
+            <legend>Title</legend>
+            <label>
+                <select name="select">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3" selected=selected>3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+            </label>
+        </fieldset>
+        <!-- 创建一个文本域,有5行,每行有20个字符 -->
+        <fieldset>
+            <legend>Title</legend>
+            <label><textarea name="textarea" rows="5" cols="20">请输入内容</textarea></label>
+        </fieldset>
+        <!-- 创建一个提交按钮 -->
+        <fieldset>
+            <legend>Title</legend>
+            <label><input type="submit" value="提交"></label>
+        </fieldset>
+    </form>
+    <form method="GET" action="/search">
+        <input type="text" name="query">
+        <input type="submit" value="Search">
+    </form>
+
+</body>
+
+</html>
